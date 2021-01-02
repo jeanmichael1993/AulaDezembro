@@ -7,7 +7,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitService {
-    val baseUrl = "https://localhost:8080"
+        val baseUrl = "http://192.168.15.78:8080"
     //url base do json
     val api: ApiEndPoint? = criaRetrofit()?.create(ApiEndPoint::class.java)
 
